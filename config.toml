@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "ezstickfix.com"
-theme = "hugo-elate"
+theme = "hugo-sodium-theme"
 
 custom_css = ["css/custom1.css", "css/custom2.css"]
 
