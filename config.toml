@@ -1,131 +1,126 @@
-baseURL = "/"
+baseURL = "http://balaramadurai.github.io/"
+title = "Travelify"
+subtitle = "Travel theme for Hugo with Slider"
 languageCode = "en-us"
-title = "Meghna"
+# preservetaxonomynames = true
+theme = "hugo-travelify-theme"
+GoogleAnalytics = "" # Add your own Google analytics code here in the format UA-XXXXXXXX-X
+canonifyURLs = true
+# rssURI = "feed/" #deprecated feature
 
-theme = "meghna-hugo"
-
-# Menu
-[menu]
-    [[menu.nav]]
-    name = "About Us"
-    URL = "about"
-    weight = 2
-
-    [[menu.nav]]
-    name = "Service"
-    URL = "services"
-    weight = 3
-
-    [[menu.nav]]
-    name = "Portfolio"
-    URL = "portfolio"
-    weight = 4
-
-    [[menu.nav]]
-    name = "Team"
-    URL = "our-team"
-    weight = 5
-
-    [[menu.nav]]
-    name = "Pricing"
-    URL = "pricing"
-    weight = 6
-
-    [[menu.nav]]
-    name = "Blog"
-    URL = "blog"
-    weight = 7
-
-    [[menu.nav]]
-    name = "Contact"
-    URL = "contact-us"
-    weight = 8
-
-# Site params
 [params]
-home= "Home"
-logo = "images/logo.png"
-gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-# Meta data
-description = "Responsive Multipurpose Parallax HTML5 Template"
-author = "Themefisher"
-# Google Analitycs
-googleAnalitycsID = "Your ID"
-custom_css = ["css/custom.css"]
+    # Tell me who you are
+    author = "nikimonikado"
+    site_description = "Travel theme for Hugo with Slider"
+    copyright  = "Copyright"
+    avatar = "css/images/avatar.png"
+    logo = "css/images/logo.png"
+    disable_mathjax = true # set to true to disable MathJax
 
-    # Banner Section
-    [params.banner]
+    # Format dates with Go's time formatting
+    date_format = "02 January, 2006"
+
+    # Add custom assets with their paths relative to the static folder
+    custom_css = []
+    custom_js  = []
+
+# Create custom menu entries by defining a label and a link for
+# them. Since you can also link posts, you've the option the
+# place the links before or after them.
+#
+# E.g.: "Home" appears before all linked posts in the menu
+# and "Tags" / "Categories" after them.
+
+
+[[menu.main]]
+    name  = "About"
+    url   = "/about/"
+    weight = 10
+    
+[[menu.main]]
+    name  = "contact"
+    url   = "/contact/"
+    weight = 20
+
+[[menu.main]]
+    name  = "Contact2"
+    url   = "/contact/"
+    parent = "contact"
+
+[[menu.main]]
+    name  = "Contact21"
+    url   = "/contact/"
+    parent = "Contact2"
+    weight = 20
+
+[[menu.main]]
+    name  = "cOntact22"
+    url   = "/contact/"
+    parent = "Contact2"
+    weight = 10
+
+[[menu.main]]
+    name  = "cOntact3"
+    url   = "/contact/"
+    parent = "contact"
+		
+[params.share]
     enable = true
-    bgImage = "images/slider/hero-area.jpg"
-    icon = "tf-ion-play"
-    heading = "Experience the new reality"
-    content= "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi. At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!"
-    btn = true
-    btnText="Explore Us"
-    btnURL="#services"
+    facebook = true
+    twitter = true
+    googleplus = true
+    linkedin = true
+    email = true
 
-    # call to action
-    [params.cta]
+[params.privacy]
+enable = true # false implies switching on tracking application, you can individually turn off applications that you don't want. If enable = true, then all tracking apps are switched off
+facebook_like = true
+DisqusShortname = "nikimonikado"
+
+[social]
+# Add your social network accounts to the profile section on the left
+# by entering your username. The links to your account will be
+# created automatically.
+    rss             = "Needed" # leave this to blank if you do not want RSS feed icon to appear on top
+    github          = "nikimonikado"
+    flickr          = "nikimonikado"
+    instagram       = "nikimonikado"
+    youtube         = "nikimonikado"
+    vimeo           = "nikimonikado"
+    tumblr          = "nikimonikado"
+    linkedin        = "nikimonikado"
+    pinterest       = "nikimonikado"
+    googleplus      = "nikimonikado"
+    facebook        = "nikimonikado"
+    twitter         = "nikimonikado"
+    email           = "joe@example.com"	
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    recent_articles = true
+    categories = true
+    tags = true
+    tag_cloud = true
+    archives = false # This feature is yet to be implemented because of limitations in Hugo's way of working.
+    search = true
+    mailchimp = true
+    mailchimpform = "//balaramadurai.us15.list-manage.com/subscribe/post?u=7f4183fa2fe7abe3dc9f4efad&amp;id=49a3dd3745"
+    author = true
+
+[params.slider]
     enable = true
-    title = "Great Design & Incredible Features"
-    content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
-    btnURL = "#"
-    btnText = "Start a project with us"
+    manual = false # Setting manual to true renders the slide selection to only those where the post has a slider=true option enabled
+    num_features = 6 # The slider picks up the banner images from the N most recent posts, where num_features is N.
 
-    # counter
-    [params.counter]
-    enable = true
-    bgImage = "images/backgrounds/bg-1.jpg"
-        [[params.counter.counterItem]]
-        title = "Happy Clients"
-        icon = "tf-ion-android-happy"
-        count = "320"
+[Taxonomies]
+    tags = "tags"
+    categories = "categories"
+    author = "author"
 
-        [[params.counter.counterItem]]
-        title = "Projects completed"
-        icon = "tf-ion-archive"
-        count = "565"
-
-        [[params.counter.counterItem]]
-        title = "Positive feedback"
-        icon = "tf-ion-thumbsup"
-        count = "95"
-
-        [[params.counter.counterItem]]
-        title = "Cups of Coffee"
-        icon = "tf-ion-coffee"
-        count = "2500"
-
-    # footer
-    [params.footer]
-        copyright = "Themefisher Team"
-        copyrightURL = "http://www.themefisher.com"
-
-        # social Icons
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-facebook"
-        url = "#"
-
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-twitter"
-        url = "#"
-
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-google-outline"
-        url = "#"
-
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-youtube"
-        url = "#"
-
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-linkedin"
-        url = "#"
-
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-dribbble-outline"
-        url = "#"
-
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-pinterest-outline"
-        url = "#"
+## DONE - Menu
+## DONE - slider 
+## DONE - facebook like on homepage
+## DONE - category URL to work
+## DONE - footer
+## DONE - add tags to the footer
+## TODO - some posts without banner
