@@ -112,7 +112,7 @@ googleAnalytics = "" #put your google-analytics ID here
       enable = true
       [[params.section.footer.action]]
         buttontext = "Get Started/ Empezar"
-        buttonUrl = "generic.html"
+        buttonUrl = "appls.html"
         customClass = "special"
       
 
