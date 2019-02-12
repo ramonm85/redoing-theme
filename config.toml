@@ -13,15 +13,15 @@ googleAnalytics = "" #put your google-analytics ID here
     image = "images/logo.svg"
 
   [[params.navigation]]
-    name = "Introduction"
+    name = "Application"
     href = "#intro"
 
   [[params.navigation]]
-    name = "First Section"
+    name = "How we can help"
     href = "#first"
 
   [[params.navigation]]
-    name = "Second Section"
+    name = "how it works "
     href = "#second"
 
   [[params.navigation]]
@@ -30,7 +30,7 @@ googleAnalytics = "" #put your google-analytics ID here
 
   [params.intro]
     title = "Immigration"
-    description = "Dont Let anyone influence or give you bad advice come to a proffesional who can help you"
+    description = "Dont Let anyone influence or give you bad advice come to a proffesionals who can help you.!!<br/>No deje que nadie influya o le dé un mal consejo Hay un profesionales que pueden ayudarlo.!!"
     image = "images/pic01.jpg"
     [[params.intro.action]]
       buttontext = "fill applications/ solicita"
@@ -39,36 +39,36 @@ googleAnalytics = "" #put your google-analytics ID here
 
   [[params.section]]
     id = "first"
-    title = "Magna veroeros"
+    title = "How we can help/ Como Podemos ayudarlo"
     description = ""
     
     # the picture is storead at static/images/
     [params.section.features]
       enable = true
       [[params.section.feature]]
-        title = "Ipsum consequat"
-        description = "Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat."
+        title = "If you or they are here/Si estas 'o' estan aqui "
+        description = "Do you need help with your citizenship form?<br/>Do you need help renewing your green card?<br/>¿Necesita ayuda con su formulario de ciudadanía? <br/>¿Necesita ayuda para renovar su tarjeta de residencia?"
         icon = "fa-code"
 
       [[params.section.feature]]
-        title = "Amed sed feugiat"
-        description = "Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat."
+        title = "If you're doing a petition/Si estas haciendo una petición"
+        description = "Do you need help with petition to remove condition on residence?.<br/>Do you need help with you relative petition?<br/>¿Necesita ayuda con la petición para eliminar la condición de residencia? <br/> ¿Necesita ayuda con la petición de su pariente?"
         icon = "fa-copy"
 
       [[params.section.feature]]
-        title = "Dolor nullam"
-        description = "Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat."
+        title = "re-certify/volver a certificar "
+        description = "Do you need help with your certificate of citizenship."
         icon = "fa-diamond"
     [params.section.footer]
       enable = true
       [[params.section.footer.action]]
-        buttontext = "Learn More"
-        buttonUrl = "generic.html"
+        buttontext = "Let Us help/ Dejenos ayudarlo"
+        buttonUrl = "appls.html"
 
   [[params.section]]
     id = "second"
-    title = "Ipsum consequat"
-    description = "Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet."
+    title = "how it works"
+    description = "If you said yes to any of these questions, then I'm here to help!I have experience with all of the above mentioned forms, and can help you fill them professionally! at a very low cost. I also translate documents from Spanish to English or vice verse- such as Birth certificate, marriage certificate and death certificate."
 
     [params.section.statistics]
       enable = true
@@ -95,41 +95,39 @@ googleAnalytics = "" #put your google-analytics ID here
 
     [params.section.content]
       enable = true
-      text = "Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia."
+      text = "If you said yes to any of these questions, then I'm here to help!I have experience with all of the above mentioned forms, and can help you fill them professionally! at a very low cost. I also translate documents from Spanish to English or vice verse- such as Birth certificate, marriage certificate and death certificate."
 
     [params.section.footer]
       enable = true
       [[params.section.footer.action]]
         buttontext = "Learn More"
-        buttonUrl = "generic.html"
+        buttonUrl = "appls.html"
 
 
   [[params.section]]
     id = "cta"
-    title = "Congue imperdiet"
-    description = "Donec imperdiet consequat consequat. Suspendisse feugiat congue posuere. Nulla massa urna, fermentum eget quam aliquet."
+    title = "Contact Us/Contáctenos"
+    description = "Start with filling out this application and one of our representatives will contact you soon!<br/>Comience llenando esta solicitud y uno de nuestros representantes lo contactará pronto!."
     [params.section.footer]
       enable = true
       [[params.section.footer.action]]
-        buttontext = "Get Started"
+        buttontext = "Get Started/ Empezar"
         buttonUrl = "generic.html"
         customClass = "special"
-      [[params.section.footer.action]]
-        buttontext = "Learn More"
-        buttonUrl = "generic.html"
+      
 
   [params.footer]
     enable = true
-    title = "Aliquam sed mauris"
+    title = "que es"
     description = "Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio."
 
-    second_title = "Etiam feugiat"
-    address = "1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA"
-    phone = "(000) 000-0000 x 0000"
-    email = "information@untitled.tld"
+    second_title = "Ramon "
+    address = ""
+    phone = "(646)912-0384"
+    email = "catchler11@gmail.com"
 
     [[params.footer.action]]
-      href = "generic.html"
+      href = "appls.html"
       buttontext = "Learn More"
 
     # social icons
