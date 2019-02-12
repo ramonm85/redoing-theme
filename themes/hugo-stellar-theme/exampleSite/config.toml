@@ -1,15 +1,15 @@
 # Site settings
-baseurl = "/"
+baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "Hugo Stellar "
+title = "Hugo Stellar Theme"
 theme = "hugo-stellar-theme"
 
 googleAnalytics = "" #put your google-analytics ID here
 
 [params]
   [params.header]
-    title = "Your Immigration Help Is Here"
-    description = 'Do you have some quetions on your immigration status or do you need help with your filling out those difficult applications WE CAN HELP!!<br/>¿Tiene alguna pregunta sobre su estado migratorio o necesita ayuda para completar esas solicitudes difíciles? TE PODEMOS AYUDAR !!'
+    title = "Stellar"
+    description = 'Just another free, fully responsive site template built by [@ajlkn](https://twitter.com/ajlkn) for <a href="https://html5up.net">HTML5 UP</a>. Ported to [hugo](https://gohugo.io) by [@AntonPolishko](https://github.com/antonpolishko)'
     image = "images/logo.svg"
 
   [[params.navigation]]
@@ -29,12 +29,12 @@ googleAnalytics = "" #put your google-analytics ID here
     href = "#cta"
 
   [params.intro]
-    title = "Immigration"
-    description = "Dont Let anyone influence or give you bad advice come to a proffesional who can help you"
+    title = "Ipsum sed adipiscing"
+    description = "Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem ipsum dolor sit amet aliquam."
     image = "images/pic01.jpg"
     [[params.intro.action]]
-      buttontext = "fill applications/ solicita"
-      href= "applications.html"
+      buttontext = "Learn More"
+      href = "generic.html"
 
 
   [[params.section]]
