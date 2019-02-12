@@ -68,7 +68,7 @@ googleAnalytics = "" #put your google-analytics ID here
   [[params.section]]
     id = "second"
     title = "how it works"
-    description = "If you said yes to any of these questions, then I'm here to help!I have experience with all of the above mentioned forms, and can help you fill them professionally! at a very low cost. I also translate documents from Spanish to English or vice verse- such as Birth certificate, marriage certificate and death certificate."
+    description = "¡Si respondió afirmativamente a cualquiera de estas preguntas, estoy aquí para ayudar! ¡Tengo experiencia con todos los formularios mencionados anteriormente y puedo ayudarlo a completarlos profesionalmente! a muy bajo costo. También traduzco documentos del español al inglés o viceversa, como el certificado de nacimiento, el certificado de matrimonio y el certificado de defunción."
 
     [params.section.statistics]
       enable = true
@@ -117,7 +117,7 @@ googleAnalytics = "" #put your google-analytics ID here
       
 
   [params.footer]
-    enable = true
+    enable = false
     title = "que es"
     description = "Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio."
 
