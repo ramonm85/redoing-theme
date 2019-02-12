@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "/"
 languageCode = "en-us"
-title = "Hugo Stellar "
+title = "immigration help "
 theme = "hugo-stellar-theme"
 
 googleAnalytics = "" #put your google-analytics ID here
