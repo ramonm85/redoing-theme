@@ -10,7 +10,7 @@ googleAnalytics = "" #put your google-analytics ID here
   [params.header]
     title = "Your Immigration Help Is Here"
     description = 'Do you have some quetions on your immigration status or do you need help with your filling out those difficult applications WE CAN HELP!!<br/>¿Tiene alguna pregunta sobre su estado migratorio o necesita ayuda para completar esas solicitudes difíciles? TE PODEMOS AYUDAR !!'
-    image = "images/logo.svg"
+    image = "images/american-visa.jpg"
 
   [[params.navigation]]
     name = "Application"
@@ -67,31 +67,25 @@ googleAnalytics = "" #put your google-analytics ID here
 
   [[params.section]]
     id = "second"
-    title = "how it works"
+    title = "How It Works"
     description = "¡Si respondió afirmativamente a cualquiera de estas preguntas, estoy aquí para ayudar! ¡Tengo experiencia con todos los formularios mencionados anteriormente y puedo ayudarlo a completarlos profesionalmente! a muy bajo costo. También traduzco documentos del español al inglés o viceversa, como el certificado de nacimiento, el certificado de matrimonio y el certificado de defunción."
 
     [params.section.statistics]
       enable = true
       [[params.section.statistic]]
         icon = "fa-code-fork"
-        value = "5,120"
-        text = "Etiam"
+        value = "1,120"
+        text = "People helped/Ayudados"
       [[params.section.statistic]]
         icon = "fa-folder-open-o"
-        value = "8,192"
-        text = "Magna"
+        value = "1,343"
+        text = "Application/Solicitud"
+      
       [[params.section.statistic]]
-        icon = "fa-signal"
-        value = "2,048"
-        text = "Tempus"
-      [[params.section.statistic]]
-        icon = "fa-laptop"
-        value = "4,096"
-        text = "Aliquam"
-      [[params.section.statistic]]
-        icon = "fa-diamond"
-        value = "1,024"
-        text = "Nullam"
+        icon = "fa-coffee"
+        value = "3,096"
+        text = "Coffee/Cafes"
+     
 
     [params.section.content]
       enable = true
@@ -117,14 +111,14 @@ googleAnalytics = "" #put your google-analytics ID here
       
 
   [params.footer]
-    enable = false
-    title = "que es"
-    description = "Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio."
+    enable = true
+    title = ""
+    description = ""
 
-    second_title = "Ramon "
+    second_title = ""
     address = ""
-    phone = "(646)912-0384"
-    email = "catchler11@gmail.com"
+    phone = ""
+    email = ""
 
     [[params.footer.action]]
       href = "appls.html"
