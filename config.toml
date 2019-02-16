@@ -4,7 +4,16 @@ languageCode = "en-us"
 title = "immigration help "
 theme = "hugo-stellar-theme"
 
-googleAnalytics = "UA-134630301-1" #put your google-analytics ID here
+googleAnalytics = "<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134630301-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-134630301-1');
+</script>
+ #put your google-analytics ID here
 
 [params]
   [params.header]
