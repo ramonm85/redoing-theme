@@ -4,7 +4,7 @@ languageCode = "en-us"
 title = "immigration help "
 theme = "hugo-stellar-theme"
 
-googleAnalytics = "" #put your google-analytics ID here
+googleAnalytics = "google5996621d4a79b70c.html" #put your google-analytics ID here
 
 [params]
   [params.header]
@@ -31,7 +31,7 @@ googleAnalytics = "" #put your google-analytics ID here
   [params.intro]
     title = "Immigration"
     description = "Dont Let anyone influence or give you bad advice come to a proffesionals who can help you.!!<br/>No deje que nadie influya o le dé un mal consejo Hay un profesionales que pueden ayudarlo.!!"
-    image = "images/pic01.jpg"
+    image = ""
     [[params.intro.action]]
       buttontext = "fill applications/ solicita"
       href= "appls.html"
