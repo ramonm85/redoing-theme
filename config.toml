@@ -34,7 +34,7 @@ googleAnalytics = "UA-134630301-1" #put your google-analytics ID here
     image = ""
     [[params.intro.action]]
       buttontext = "fill applications/ solicita"
-      href= "appls.html"
+      href= "form.html"
 
 
   [[params.section]]

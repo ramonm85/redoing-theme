@@ -1,0 +1,119 @@
+body {
+    
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left;
+        display: fixed;
+        background-color: #935d8c;
+        color: rgba(255, 255, 255, 0.65);
+        
+    }
+body  {background-color: #935d8c;
+    background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);}  
+    #title {
+        font-size: 70px;
+        font-weight: bold;
+        text-align: center;
+        font-family: geneva;
+        padding: 0.3em 0em 0.3em 0em;
+        margin: 0px;
+        text-shadow: 2px 0 0 rgb(141, 60, 134), -2px 0 0 rgb(141, 60, 134) 0 2px 0 rgb(141, 60, 134), 0 -2px 0 rgb(141, 60, 134),
+        1px 1px rgb(141, 60, 134), -1px -1px 0 rgb(141, 60, 134), 1px -1px 0 rgb(141, 60, 134)f, -1px 1px 0 rgb(141, 60, 134);
+    }
+    
+    #survey-form {	
+        font-family: "geneva", san-serif;
+        font-size: 18px;
+        padding: 25px;
+        background-repeat: no-repeat;
+        background-size: auto;
+        text-align: center;
+    }
+    
+    .container {
+        border: 1px solid black;
+        max-width: 10in;
+        font-size: 10px;
+        font-family: geneva;
+        text-align: center;
+        background: rgba(204, 204, 204, 0.8);
+        margin: auto;
+        padding: 1px 1px 1px 1px;
+    }
+    
+    #description {
+        font-size: 20px;
+        font-family: geneva;
+        font-weight: bold;
+        border: px solid black;
+    }
+    
+    #name-field, #email-field, #age, #phone-field, #dropdown, #radio-buttons, #checkboxes, #comments, #textarea {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        padding: 0px 0px 10px 0px
+    }
+    
+    #name-label, #email-label, #number-label, #phone-label, #role-label, #radiolist-label, #checklist-label, #comments-label, #textarea-label {
+        width: 100%;
+        text-align: left;
+        padding: 4px 0px 0px 0px;
+      font-weight: bold;
+    }
+    
+    input[name="name"], input[name="email"], input[name="age"],input[name="phone"], textarea[name="textarea"] {
+        width: 100%;
+        max-width: 90%;
+        padding: 4px;
+      outline: none;
+      border-radius: 5px;
+    }
+    
+    select {
+        width: 47%;
+        padding: 4px;
+    }
+    
+    p {
+        margin: 0px 0px 5px 0px;
+    }
+    
+    .button {
+        background-color: skyblue;
+        padding: 8px 16px 8px 16px;
+        border-radius: 2px;
+        border: none;
+        font-size: 30px;
+        color: white;
+    }
+    .button:hover {
+      background-color: grey;
+      color: white;
+      cursor: pointer;
+    }
+    
+    @media (max-width: 600px) {
+        #name-field, #email-field, #age, #dropdown, #phone-field, #radio-buttons, #checkboxes, #comments, #textarea {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        #name-label, #email-label,#age-label, #number-label, #phone-label, #role-label, #radiolist-label, #checklist-label, #comments-label, #textarea-label {
+            width: 100%;
+            text-align: left;
+            padding: 4px 0px 0px 0px;
+        }
+        input[name="name"], input[name="email"], input[name="age"],input[name="phone"], textarea[name="textarea"] {
+            width: 90%;
+            padding: 4px;
+        }
+        select {
+            width: 50%;
+            padding: 4px;
+        }
+        p {
+            margin: 0px 0px 18px 0px;
+            }       }
