@@ -97,11 +97,11 @@ body  {background-color: #935d8c;
     }
     
     @media (max-width: 600px) {
-        #name-field, #email-field, #age, #dropdown, #phone-field, #radio-buttons, #checkboxes, #comments, #textarea {
+        #name-field, #email-field, #age, #dropdown, #phone-field, #radio-buttons, #checkboxes, #comments, #textarea, #frame-field {
             display: grid;
             grid-template-columns: 1fr;
         }
-        #name-label, #email-label,#age-label, #number-label, #phone-label, #role-label, #radiolist-label, #checklist-label, #comments-label, #textarea-label {
+        #name-label, #email-label,#age-label, #number-label, #phone-label, #role-label, #radiolist-label, #checklist-label, #comments-label, #textarea-label, #frame-label {
             width: 100%;
             text-align: left;
             padding: 4px 0px 0px 0px;
