@@ -96,7 +96,7 @@ body  {background-color: #935d8c;
       cursor: pointer;
     }
     
-    @media (max-width: 600px) {
+    @media (max-width: 300px) {
         #name-field, #email-field, #age, #dropdown, #phone-field, #radio-buttons, #checkboxes, #comments, #textarea, #frame-field {
             display: grid;
             grid-template-columns: 1fr;
@@ -116,4 +116,6 @@ body  {background-color: #935d8c;
         }
         p {
             margin: 0px 0px 18px 0px;
-            }       }
+            } 
+           
+            }
